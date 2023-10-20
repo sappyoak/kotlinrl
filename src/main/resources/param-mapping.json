@@ -1,0 +1,60 @@
+{
+  "packetBufferNodeParentClass": {
+    "name": "fv",
+    "deobName": "class173"
+  },
+  "clientPacketClass": {
+    "name": "ln",
+    "deobName": "Archive"
+  },
+  "bufferClass": {
+    "name": "ul",
+    "deobName": ""
+  },
+  "packetWriterClass": {
+    "name": "ez",
+    "deobName": ""
+  },
+  "packetBufferNodeClass": {
+    "name": "lx",
+    "deobName": ""
+  },
+  "getPacketBufferNodeMethod": {
+    "name": "al",
+    "deobName": "",
+    "garbage": "2045853930"
+  },
+  "addNodeMethod": {
+    "name": "ak",
+    "deobName": "",
+    "garbage": "22"
+  },
+  "packetWriterField": {
+    "name": "ic",
+    "deobName": ""
+  },
+  "isaacCipherField": {
+    "name": "ao",
+    "deobName": ""
+  },
+  "packetBufferField": {
+    "name": "ak",
+    "deobName": ""
+  },
+  "bufferArrayField": {
+    "name": "ab",
+    "deobName": ""
+  },
+  "bufferOffsetField": {
+    "name": "am",
+    "deobName": ""
+  },
+  "mouseLastPressedTimeClass": {
+    "name": "bo",
+    "deobName": ""
+  },
+  "mouseLastPressedTimeField": {
+    "name": "aw",
+    "deobName": ""
+  }
+}

@@ -1,0 +1,30 @@
+[versions]
+kotlin = "1.9.0"
+jvm = "17"
+
+kotlinx-cli = "0.3.6"
+kotlinx-coroutines = "1.7.1"
+kotlinx-datetime = "0.4.1"
+kotlinx-serialization = "1.5.1"
+okio = "3.4.0"
+ktor = "2.1.0"
+
+
+asm = "9.4"
+fernflower = "07082019"
+
+[libraries]
+kotlinx-cli = { module = "org.jetbrains.kotlinx:kotlinx-cli", version.ref = "kotlinx-cli" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx.coroutines" }
+kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx-datetime" }
+kotlinx-serialization-core = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "kotlinx.serialization" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx.serialization" }
+kotlinx-serialization-json-okio = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json-okio", version.ref = "kotlinx.serialization" }
+okio = { module = "com.squareup.okio:okio", version.ref = "okio" }
+
+asm = { module = "org.ow2.asm:asm", version.ref = "asm" }
+asm-util = { module = "org.ow2.asm:asm-util", version.ref = "asm" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlinx-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
